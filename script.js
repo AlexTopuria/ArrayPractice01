@@ -1,1 +1,10 @@
-
+let superCoolArray = ["Sigma", "Skibidi", "Rizz", "Baby Gronk", "Samaroo"];
+console.log(superCoolArray);
+superCoolArray[3] = "Alpha";
+console.log(superCoolArray);
+superCoolArray.pop();
+console.log(superCoolArray);
+superCoolArray.push("Melnick");
+console.log(superCoolArray);
+superCoolArray.splice(1, 2, "Mewing", "Huzz", "W Rizz");
+console.log(superCoolArray);
